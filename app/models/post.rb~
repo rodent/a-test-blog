@@ -1,0 +1,6 @@
+class Post < ActiveRecord::Base
+  validates :title, :author, :content, :presence => true
+  validates :title, :uniqueness => true
+  validates :title, :length => {:maximum => 32}
+  
+end

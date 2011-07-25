@@ -1,0 +1,14 @@
+#container
+  %article
+    %h1
+      = link_to "#{post.title}", post_path("#{post.id}")
+
+    %h4
+      = post.author
+
+    %p
+      :markdown
+        #{post.content}
+
+    %br
+    %br

@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %title
+      blog
+    = stylesheet_link_tag :all
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+  %body
+    %hgroup
+      %h1
+        %a(href="#")
+          Blog
+    %br
+    %br
+    #container
+      = yield

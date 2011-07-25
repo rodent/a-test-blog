@@ -1,0 +1,49 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  author: MyString
+  content: MyText
+  published: false
+
+two:
+  title: MyString
+  author: MyString
+  content: MyText
+  published: false
+  
+sandwich:
+  title: Cheese Sandwich
+  author: angry beaver 
+  content:
+    <h3>
+    I had a great cheese sandwich today!
+    </h3>
+    <p>
+    It was delicious!
+    </p>
+  published: true
+            
+bacon:
+  title: Chunky bacon
+  author: angry beaver
+  content:
+    <h3>
+    I had some great chunky bacon today!
+    </h3>
+    <p>
+    It was delicious!
+    </p>
+  published: true
+  
+hidden_sandwich:
+  title: Cheese Sandwich
+  author: angry beaver 
+  content:
+    <h3>
+    I had a great cheese sandwich today!
+    </h3>
+    <p>
+    It was delicious!
+    </p>
+  published: false
